@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head Section -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Careerpedia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- Body Section -->
+  <body>
+    <!-- NAVBAR SECTION -->
+    <!-- Navbar1 -->
+    <div class="nav1">
+      <div class="nav1_left">
+        <i class="fa-solid fa-phone"></i>
+        <p>New Course Enquiry:</p>
+        <img src="./images/india-flag" alt="" />
+        <p>+91 9876543210 <i class="fa-solid fa-caret-down"></i></p>
+      </div>
+      <div class="nav1_right">
+        <i class="fa-solid fa-bullhorn"></i>
+        <p>Month End Offer - Upto 30% off</p>
+        <hr />
+        <p>Ends in :</p>
+        <div id="countdown"></div>
+        <a href="">Enroll Now</a>
+      </div>
+    </div>
+
+    <!-- Navbar2 -->
+
+    <div class="nav2">
+      <div class="nav_logo">
+        <img src="./images/careerpedia_logo.svg" alt="" />
+      </div>
+      <div class="nav_links">
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i> Search Courses
+        </button>
+        <a href="">All Courses</a>
+        <a href="">Offerings</a>
+        <button class="signup">SignUp</button>
+        <button class="login">Login</button>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+
+    <div class="hero">
+      <div class="hero_part1">
+        <a href=""
+          >Home > All Courses > Front-End Development > React JS Certification
+          Training Course</a
+        >
+        <div class="certification">
+          <h3>React JS Certification Training Course</h3>
+          <div class="icon_part">
+            <div class="certification_enq">
+              <p>Have queries? Ask us</p>
+              <p><i class="fa-solid fa-phone"></i> +91 98765432345</p>
+            </div>
+            <div class="certification_icons">
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="user_btn">
+            <i class="fa-solid fa-user"></i>
+            15347 Learners
+          </button>
+          <button class="star_btn">
+            <i class="fa-solid fa-star"></i>
+            5 Read Reviews
+          </button>
+        </div>
+      </div>
+
+      <div class="hero_part2">
+        <div class="hero_left">
+          <img src="./images/hero_img.webp" alt="" />
+          <!-- <div class="hero_img_btns">
+            <button class="enroll">Enroll Now</button>
+            <button class="download">Download Curriculm</button>
+          </div> -->
+        </div>
+
+        <div class="hero_right">
+          <p>
+            CareerPedia React Certification Training will train you to build
+            efficient React applications by mastering the concepts of React,
+            Redux, and React Native. In this Advanced React Course, you will
+            learn how to build simple components & integrate them into more
+            complex design components. After completing this React online
+            training, you will be able to build the applications using React
+            concepts such as JSX, Redux, Asynchronous Programming using
+            Redux-Saga middleware, Fetch data using GraphQL, perform Testing
+            using Jest, successively Deploy applications using Nginx and Docker,
+            plus build Mobile applications using React Native.
+          </p>
+          <h2>Live Online Classes starting on 2nd Dec 2023</h2>
+          <div class="hero_btns">
+            <button class="enroll">Enroll Now</button>
+            <button class="download">Download Curriculm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reviews Section -->
+
+    <div class="reviews">
+      <div class="review">
+        <div class="review_top">
+          <img src="./images/google-icon.webp" alt="" />
+          <p>4.6</p>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="review_bottom">
+          <p>Google Reviews</p>
+        </div>
+      </div>
+      <hr class="review_hr" />
+      <div class="review">
+        <div class="review_top">
+          <img src="./images/trust-icon.webp" alt="" />
+          <p>4.4</p>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="review_bottom">
+          <p>Trustpilot Reviews</p>
+        </div>
+      </div>
+      <hr class="review_hr" />
+
+      <div class="review">
+        <div class="review_top">
+          <img src="./images/g2-icon.webp" alt="" />
+          <p>4.2</p>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="review_bottom">
+          <p>G2 Reviews</p>
+        </div>
+      </div>
+      <hr class="review_hr" />
+
+      <div class="review">
+        <div class="review_top">
+          <img src="./images/jabber-icon.webp" alt="" />
+          <p>4.7</p>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="review_bottom">
+          <p>Sitejabber Reviews</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Batches Section -->
+
+    <div class="batches">
+      <h2>Instructor-led ReactJS Training Schedule</h2>
+      <div class="batches_head">
+        <h1>Flexible batches for you</h1>
+        <div class="time_btns">
+          <button onclick="toggleForm('online-form')">Online Training</button>
+          <button onclick="toggleForm('offline-form')">Corporate Training</button>
+          <!-- <button>Online Training</button>
+          <button>Corporate Training</button> -->
+        </div>
+      </div>
+
+      <div class="form-container" id="online-form">
+        <div class="dates">
+          <div class="dates_left">
+            <div class="left1">
+              <div class="">
+                <button>SoldOut</button>
+              </div>
+              <div class="">
+                <h2>Dec 10<sup>th</sup></h2>
+              </div>
+              <div class="">
+                <button>Weekend</button>
+              </div>
+              <div class="">
+                <h3>SAT & SUN (5 Weeks)</h3>
+              </div>
+              <div class="">
+                <div class="left_time">
+                  <p>4:00PM to 6:00PM</p>
+                  <p>CLASS 1</p>
+                </div>
+              </div>
+            </div>
+            <div class="left1">
+              <div class="">
+                <input type="radio" checked />
+              </div>
+              <div class="">
+                <h2>Dec 25<sup>th</sup></h2>
+              </div>
+              <div class="">
+                <button>Weekend</button>
+              </div>
+              <div class="">
+                <h3>SAT & SUN (5 Weeks)</h3>
+              </div>
+              <div class="">
+                <div class="left_time">
+                  <p>8:00PM to 10:00PM</p>
+                  <p>CLASS 1</p>
+                </div>
+              </div>
+            </div>
+            <div class="left1">
+              <div class="">
+                <input type="radio" checked />
+              </div>
+              <div class="">
+                <h2>Jan 1<sup>st</sup></h2>
+              </div>
+              <div class="">
+                <button>Weekend</button>
+              </div>
+              <div class="">
+                <h3>SAT & SUN (5 Weeks)</h3>
+              </div>
+              <div class="">
+                <div class="left_time">
+                  <p>7:00PM to 9:00PM</p>
+                  <p>CLASS 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="dates_right">
+            <div class="right_top">
+              <p>Price <strike>₹1,08,000</strike></p>
+              <h1>₹96,000</h1>
+              <p>15% OFF, Save ₹12,000.</p>
+              <p><i class="fa-solid fa-clock"></i> Ends in 03H : 51M : 00S</p>
+              <p>With No Cost EMI <a>Know More</a></p>
+              <button>ENROLL NOW</button>
+              <div class="trans">
+                <i class="fa-solid fa-lock"></i>
+                <p>Secure Transaction</p>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="offline-form" class="form-container">
+        <h2>Offline Form</h2>
+        <!-- Add your offline form content here -->
+      </div>
+    </div>
+
+    <!-- Course Curriculum Section -->
+
+    <div class="courses">
+      <div class="course">
+        <h2>React JS Certification Training Course Curriculum</h2>
+        <div class="course_head">
+          <h1>Curriculum Designed by Experts</h1>
+          <button>
+            <i class="fa-solid fa-download"></i> DOWNLOAD CURRICULUM
+          </button>
+        </div>
+      </div>
+
+      <div class="course_data">
+        <div class="questions">
+
+          <!-- Question number 1 -->
+          
+          <div class="faq_sec">
+            <div class="qus">
+              <h4>Introduction to Web Development and React</h4>
+              <div class="qus_info">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <p>12 Topics</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <!-- Faq 1 -->
+            <div class="qus_ans">
+              <div class="ans_left">
+                <h4>Topics</h4>
+                <div class="list">
+                  <ul>
+                    <li>Building Blocks of Web Application Development</li>
+                    <li>Single-page and Multi-page Applications</li>
+                    <li>Different Client-side Technologies</li>
+                    <li>MVC Architecture</li>
+                    <li>Introduction to React</li>
+                    <li>Installation of React</li>
+                    <li>JSX and its use case</li>
+                    <li>DOM</li>
+                    <li>Virtual DOM and Its Working</li>
+                    <li>ECMAScript</li>
+                    <li>Difference between ES5 and ES6</li>
+                    <li>NPM Modules</li>
+                  </ul>
+                </div>
+                <button>
+                  <i class="fa-solid fa-download"></i> DOWNLOAD SYLLABUS
+                </button>
+              </div>
+              <div class="ans_right">
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Hands On</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      Installation of Node.js, React and Visual Studio Code
+                    </li>
+                    <li>Creating First React Application</li>
+                  </ul>
+                </div>
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Skills You Will Learn</h3>
+                  </div>
+                  <ul>
+                    <li>Working with DOM</li>
+                    <li>Implementing NPM modules</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question number 2 -->
+          <div class="faq_sec">
+            <div class="qus">
+              <h4>Components and Styling the Application Layout</h4>
+              <div class="qus_info">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <p>12 Topics</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <!-- Faq 1 -->
+            <div class="qus_ans">
+              <div class="ans_left">
+                <h4>Topics</h4>
+                <div class="list">
+                  <ul>
+                    <li>React Elements</li>
+                    <li>Render Function</li>
+                    <li>Components</li>
+                    <li>Class Component</li>
+                    <li>Component Constructor</li>
+                    <li>Functional Components</li>
+                    <li>Multiple Components</li>
+                    <li>Props</li>
+                    <li>Props with Class based Component</li>
+                    <li>Props with Function based Component</li>
+                    <li>States</li>
+                    <li>Component Lifecycle</li>
+                    <li>React Events</li>
+                    <li>React Forms</li>
+                    <li>Different Form Concepts</li>
+                    <li>Styling in React</li>
+                    <li>Inline Styling</li>
+                    <li>CSS Stylesheet</li>
+                    <li>Building Music Shop Application using React</li>
+                  </ul>
+                </div>
+                <button>
+                  <i class="fa-solid fa-download"></i> DOWNLOAD SYLLABUS
+                </button>
+              </div>
+              <div class="ans_right">
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Hands On</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      Build a Music Store Application using React Components
+                    </li>
+                  </ul>
+                </div>
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Skills You Will Learn</h3>
+                  </div>
+                  <ul>
+                    <li>Creating React Components</li>
+                    <li>Working with React Forms</li>
+                    <li>Styling the React Components</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question number 3 -->
+
+          <div class="faq_sec">
+            <div class="qus">
+              <h4>Handling Navigation with Routes</h4>
+              <div class="qus_info">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <p>12 Topics</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <!-- Faq 1 -->
+            <div class="qus_ans">
+              <div class="ans_left">
+                <h4>Topics</h4>
+                <div class="list">
+                  <ul>
+                    <li>Routing</li>
+                    <li>React-router</li>
+                    <li>Features of React-router</li>
+                    <li>Configuration of routing using React-router</li>
+                    <li>Navigation using Links</li>
+                    <li>404 page (Not found Page)</li>
+                    <li>URL Parameters</li>
+                    <li>Nested Routes</li>
+                    <li>Implementing styles using NavLink</li>
+                    <li>Application Programming Interface</li>
+                    <li>Build a REST API using JSON-server</li>
+                    <li>API consumption in React application using Fetch method</li>
+                    <li>Build a dynamic Music Store application using Routing and API connectivity</li>
+                  </ul>
+                </div>
+                <button>
+                  <i class="fa-solid fa-download"></i> DOWNLOAD SYLLABUS
+                </button>
+              </div>
+              <div class="ans_right">
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Hands On</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      Dynamic Music Store Application with Routing and API connectivity
+                    </li>
+                    <li>Creating First React Application</li>
+                  </ul>
+                </div>
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Skills You Will Learn</h3>
+                  </div>
+                  <ul>
+                    <li>Working with REST API</li>
+                    <li>Navigation among various components</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question number 4 -->
+
+          <div class="faq_sec">
+            <div class="qus">
+              <h4>React State Management using Redux</h4>
+              <div class="qus_info">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <p>12 Topics</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <!-- Faq 1 -->
+            <div class="qus_ans">
+              <div class="ans_left">
+                <h4>Topics</h4>
+                <div class="list">
+                  <ul>
+                    <li>Need of Redux</li>
+                    <li>What is Redux?</li>
+                    <li>Redux Architecture</li>
+                    <li>Redux Action</li>
+                    <li>Redux Reducers</li>
+                    <li>Redux Store</li>
+                    <li>Principles of Redux</li>
+                    <li>Pros of Redux</li>
+                    <li>NPM Packages required to work with Redux</li>
+                    <li>More about React-Redux package</li>
+                  </ul>
+                </div>
+                <button>
+                  <i class="fa-solid fa-download"></i> DOWNLOAD SYLLABUS
+                </button>
+              </div>
+              <div class="ans_right">
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Hands On</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      Building an application to list the food items using React and Redux
+                    </li>
+                    <li>Building News application using React, Redux, and promise middleware</li>
+                  </ul>
+                </div>
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Skills You Will Learn</h3>
+                  </div>
+                  <ul>
+                    <li>Managing and updating application state</li>
+                    <li>Working with NPM packages</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question number 5 -->
+
+          <div class="faq_sec">
+            <div class="qus">
+              <h4>Asynchronous Programming with Saga Middleware</h4>
+              <div class="qus_info">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <p>12 Topics</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <!-- Faq 1 -->
+            <div class="qus_ans">
+              <div class="ans_left">
+                <h4>Topics</h4>
+                <div class="list">
+                  <ul>
+                    <li>Need of Async operations</li>
+                    <li>Async Workflow</li>
+                    <li>Action Creators</li>
+                    <li>How to write Action Creators?</li>
+                    <li>Handling Async Actions via Reducers</li>
+                    <li>Middleware</li>
+                    <li>Redux-Saga</li>
+                    <li>Generators in Redux-Saga</li>
+                    <li>Saga Methods()</li>
+                    <li>Major Sections of Redux-Saga</li>
+                    <li>Building a Product List application using Redux-Saga Middleware</li>
+                    <li>Debugging application using Redux Devtools</li>
+                  </ul>
+                </div>
+                <button>
+                  <i class="fa-solid fa-download"></i> DOWNLOAD SYLLABUS
+                </button>
+              </div>
+              <div class="ans_right">
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Hands On</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      Installation of Node.js, React and Visual Studio Code
+                    </li>
+                    <li>Creating First React Application</li>
+                  </ul>
+                </div>
+                <div class="right_1">
+                  <div class="right_ans_top">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Skills You Will Learn</h3>
+                  </div>
+                  <ul>
+                    <li>Working with DOM</li>
+                    <li>Implementing NPM modules</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="qus">
+            <h4>Components and Styling the Application Layout</h4>
+            <div class="qus_info">
+              <i class="fa-solid fa-bars-staggered"></i>
+              <p>19 Topics</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="qus_ans">
+            <div class="ans_left">
+              <h4>Topics</h4>
+              <div class="list">
+                <ul>
+                  <li>Building Blocks of Web Application Development</li>
+                  <li>Single-page and Multi-page Applications</li>
+                  <li>Different Client-side Technologies</li>
+                  <li>MVC Architecture</li>
+                  <li>Introduction to React</li>
+                  <li>Installation of React</li>
+                  <li>JSX and its use case</li>
+                  <li>DOM</li>
+                  <li>Virtual DOM and Its Working</li>
+                  <li>ECMAScript</li>
+                  <li>Difference between ES5 and ES6</li>
+                  <li>NPM Modules</li>
+                </ul>
+              </div>
+              <button><i class="fa-solid fa-download"></i> DOWNLOAD SYLLABUS</button>
+            </div>
+            <div class="ans_right">
+              <div class="right_1">
+                <div class="right_ans_top">
+                  <i class="fa-solid fa-check"></i>
+                  <h3>Hands On</h3>
+                </div>
+                <ul>
+                  <li>Installation of Node.js, React and Visual Studio Code</li>
+                  <li>Creating First React Application</li>
+                </ul>
+              </div>
+              <div class="right_1">
+                <div class="right_ans_top">
+                  <i class="fa-solid fa-check"></i>
+                  <h3>Skills You Will Learn</h3>
+                </div>
+                <ul>
+                  <li>Working with DOM</li>
+                  <li>Implementing NPM modules</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="qus">
+            <h4>Handling Navigation with Routes</h4>
+            <div class="qus_info">
+              <i class="fa-solid fa-bars-staggered"></i>
+              <p>13 Topics</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="qus">
+            <h4>React State Management using Redux</h4>
+            <div class="qus_info">
+              <i class="fa-solid fa-bars-staggered"></i>
+              <p>10 Topics</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="qus">
+            <h4>Asynchronous Programming with Saga Middleware</h4>
+            <div class="qus_info">
+              <i class="fa-solid fa-bars-staggered"></i>
+              <p>12 Topics</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="course_form">
+          <form action="">
+            <div class="form_title">
+              <h3>Free Career Counselling</h3>
+              <p>We are happy to help you 24/7</p>
+            </div>
+            <div class="form_data">
+              <div class="email">
+                <label for="email">Email id</label>
+                <input type="email" placeholder="Enter Your mail-id" />
+              </div>
+              <div class="mob_num">
+                <label for="number">Mobile Number</label>
+                <input type="num" placeholder="Enter Your Mobile Number" />
+              </div>
+              <p>
+                Please Note : By continuing and signing in, you agree to
+                Edureka’s Terms & Conditions and Privacy Policy.
+              </p>
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="bottom_form">
+        <div class="form_head">
+          <h2>Like the curriculum? Get started</h2>
+          <img src="./images/form-img" alt="" />
+        </div>
+        <div class="form_body">
+          <div class="email">
+            <label for="email">Email id</label>
+            <input type="email" placeholder="Enter Your mail-id" />
+          </div>
+          <div class="mob_num">
+            <label for="number">Mobile Number</label>
+            <input type="num" placeholder="Enter Your Mobile Number" />
+          </div>
+          <div class="bottom_formbtn">
+            <p></p>
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Training Reviews -->
+
+    <div class="training_review">
+      <h3>React JS Training reviews</h3>
+      <h2>Read learner testimonials</h2>
+      <div class="training_cards">
+        <div class="training_card">
+          <div class="training_card_head">
+            <h4>RR</h4>
+            <h3>Rupesh Reddy</h3>
+          </div>
+          <p>
+            l am Rupesh Reddy and I finished my graduation in B-Tech 2023 from
+            mallareddy University. Then I learned about this awesome course from
+            Careerpedia which was regarding Full Stack Web-development. My
+            course at Careerpedia has been very interesting and useful, and I
+            have learned more about full-stack web development.
+          </p>
+          <button>ReadMore</button>
+        </div>
+        <div class="training_card">
+          <div class="training_card_head">
+            <h4>SM</h4>
+            <h3>Sameer</h3>
+          </div>
+          <p>
+            l am Sameer Mohammad and I finished my graduation in B-Tech in 2021
+            from sana Engineering college. Then I learned about this awesome
+            course from Careerpedia which was regarding Full Stack
+            Web-development. My course at Careerpedia has been very interesting
+            and useful, and I have learned more about full-stack web
+            development.
+          </p>
+          <button>ReadMore</button>
+        </div>
+        <div class="training_card">
+          <div class="training_card_head">
+            <h4>RR</h4>
+            <h3>Revanth Raju</h3>
+          </div>
+          <p>
+            l am Revanth Raju and I finished my graduation in B-Tech in 2020.
+            Then I learned about this awesome course from Careerpedia which was
+            regarding Full Stack Web-development. My course at Careerpedia has
+            been very interesting and useful, and I have learned more about
+            full-stack web development.
+          </p>
+          <button>ReadMore</button>
+        </div>
+        <!-- <div class="training_card">
+          <div class="training_card_head">
+            <h4>RR</h4>
+            <h3>Harshitha Chagarlamudi</h3>
+          </div>
+          <p>
+            l am Harshitha Chagarlamudi and I finished my graduation in B-Tech in 2023.
+            from 
+            Then I learned about this awesome course from Careerpedia which was
+            regarding Front-End Web-development. My course at Careerpedia has
+            been very interesting and useful, and I have learned more about
+            Front-End web development.
+          </p>
+          <button>ReadMore</button>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Why React JS From Careerpedia -->
+
+    <div class="why_cp">
+      <h1>Why React JS Training from CareerPedia</h1>
+      <div class="cp">
+        <div class="cp1">
+          <div class="cpc1">
+            <img
+              src="https://d1jnx9ba8s6j9r.cloudfront.net/img/live_intr_live.webp"
+              alt=""
+            />
+            <h3>Live Interactive Learning</h3>
+          </div>
+          <div class="cpc2">
+            <ul>
+              <li>World-Class Instructors</li>
+              <li>Expert-Led Mentoring Sessions</li>
+              <li>Instant doubt clearing</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cp1">
+          <div class="cpc1">
+            <img
+              src="https://d1jnx9ba8s6j9r.cloudfront.net/img/live_intr_life.webp"
+              alt=""
+            />
+            <h3>Lifetime Access</h3>
+          </div>
+          <div class="cpc2">
+            <ul>
+              <li>Course Access Never Expires</li>
+              <li>Free Access to Future Updates</li>
+              <li>Unlimited Access to Course Content</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cp1">
+          <div class="cpc1">
+            <img
+              src="https://d1jnx9ba8s6j9r.cloudfront.net/img/live_intr_247.webp"
+              alt=""
+            />
+            <h3>Hands-On Project Based Learning</h3>
+          </div>
+          <div class="cpc2">
+            <ul>
+              <li>Industry-Relevant Projects</li>
+              <li>Course Demo Dataset & Files</li>
+              <li>Quizzes & Assignments</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cp1">
+          <div class="cpc1">
+            <img
+              src="https://d1jnx9ba8s6j9r.cloudfront.net/img/live_intr_247.webp"
+              alt=""
+            />
+            <h3>24x7 Support</h3>
+          </div>
+          <div class="cpc2">
+            <ul>
+              <li>One-On-One Learning Assistance</li>
+              <li>Help Desk Support</li>
+              <li>Resolve Doubts in Real-time</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cp1">
+          <div class="cpc1">
+            <img
+              src="https://d1jnx9ba8s6j9r.cloudfront.net/img/live_intr_certi.webp"
+              alt=""
+            />
+            <h3>Industry Recognised Certification</h3>
+          </div>
+          <div class="cpc2">
+            <ul>
+              <li>CareerPedia Training Certificate</li>
+              <li>Graded Performance Certificate</li>
+              <li>Certificate of Completion</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cp1">
+          <div class="cpc1">
+            <h3>24x7 Support</h3>
+          </div>
+          <div class="cpc2">
+            <ul>
+              <li>One-On-One Learning Assistance</li>
+              <li>Help Desk Support</li>
+              <li>Resolve Doubts in Real-time</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Other Courses -->
+
+    <div class="other_courses">
+      <div class="other_head">
+        <h1>Other Front-End Courses</h1>
+      </div>
+      <div class="other_courses_body">
+        <div class="other_courses1">
+          <h2>Full-Stack Web Developer Masters Program Course</h2>
+          <p><i class="fa-solid fa-thumbs-up"></i> 29k+ Satisfied Learners</p>
+          <a href="">Know More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="other_courses1">
+          <h2>React.js Certification Training</h2>
+          <p><i class="fa-solid fa-thumbs-up"></i> 24k+ Satisfied Learners</p>
+          <a href="">Know More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="other_courses1">
+          <h2>JavaScript Certification Training</h2>
+          <p><i class="fa-solid fa-thumbs-up"></i> 16k+ Satisfied Learners</p>
+          <a href="">Know More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+      <div class="foot">
+        <div class="footer1">
+          <div class="foot_head">
+            <h1>COMPANY</h1>
+          </div>
+          <div class="foot_body">
+            <p>About</p>
+            <p>News & Media</p>
+            <p>Reviews</p>
+            <p>Contact Us</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+          </div>
+        </div>
+        <div class="footer1">
+          <div class="foot_head">
+            <h1>WORK WITH US</h1>
+          </div>
+          <div class="foot_body">
+            <p>Careers</p>
+            <p>Become an Instructor</p>
+            <p>Become an Affliate</p>
+            <p>Become a Partner</p>
+            <p>Hire form CareerPedia</p>
+          </div>
+        </div>
+        <div class="footer1">
+          <div class="foot_head">
+            <h1>RESOURSES</h1>
+          </div>
+          <div class="foot_body">
+            <p>Blog</p>
+            <p>Webinars</p>
+            <p>Community</p>
+            <p>Videos</p>
+          </div>
+        </div>
+
+        <div class="footer1">
+          <div class="foot_head">
+            <h1>SITEMAPS</h1>
+          </div>
+          <div class="foot_body">
+            <p>Sitemap</p>
+            <p>Blog sitemap</p>
+            <p>City siteMap</p>
+            <p>Community SiteMap</p>
+          </div>
+        </div>
+      </div>
+      <hr class="footer_hr" />
+
+      <div class="footer_bottom">
+        <div class="btm_left">
+          <p>
+            © 2023 Brain4ce Education Solutions Pvt. Ltd. All rights Reserved
+          </p>
+        </div>
+        <div class="btm_right">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/i/flow/login" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
